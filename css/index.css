@@ -1,0 +1,36 @@
+.logo-burger {
+    background-image: url(../img/logo-burger-back.png);
+    display: grid;
+    padding: 20px;
+}
+.hero {
+ background-image: url(../img/hero-back.png);
+}
+.logo-burger {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.social-medias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 10px;
+    width: 100px;
+    margin: 10px;
+    
+}
+.social-medias a :hover {
+    background-color:  orange;
+    align-items: center;
+}
+header nav a:hover {
+    color: white;
+}
+.menu {
+    text-align: left;
+}
+.menu a {
+    padding: 20px;
+}
+.logo-burger div > img {
+    width: 130px;
+}
