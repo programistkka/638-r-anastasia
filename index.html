@@ -12,20 +12,16 @@
 <body>
     <header>
         <div class="logo-burger">
-            <div class="logo-burger-img"><img src="img/fun-play-logo.svg" alt="fun-play-logo"></div>
-            <div>
-                <nav class="menu">
-                    <a href="#about-us">▬ About Us</a>
-                    <a href="#games">▬ Games</a>
-                    <a href="#testimonials">▬ Testimonials</a>
-                    <a href="#platforms">▬ Platforms</a>
-                </nav>
+            <img src="img/fun-play-logo.svg" alt="fun-play-logo">
+            <nav class="menu">
+                <a href="#about-us">▬ About Us</a>
+                <a href="#games">▬ Games</a>
                 <div class="social-medias">
                     <a href="https://www.facebook.com/"><img src="img/fb-icon.svg" alt="fb-icon"></a>
                     <a href="https://www.instagram.com/"><img src="img/instagram-icon.svg" alt="instagram-icon"></a>
                     <a href="https://www.youtube.com/"><img src="img/youtube-icon.svg" alt="youtube-icon"></a>
                 </div>
-            </div>
+            </nav>
         </div>
         <div class="hero">
             <h1>We Create Innovative Games You Just Can't Stop Playing</h1>
@@ -46,50 +42,56 @@
                 <div class="mobile-development">
                     <img src="img/mobile-development.webp" alt="mobile-development">
                     <h3>Mobile Game Development</h3>
-                    <h3>▬</h3>
+                    <h3 class="line">▬</h3>
                     <p>We develop all kinds of casual and educational games for iOS and Android mobile platforms using
                         cutting-edge game engines and technologies.</p>
-                    <button onclick="">LEARN MORE</button>
+                    <button class="game-development-button" onclick="">LEARN MORE</button>
                 </div>
                 <div class="vr-ar-development">
                     <img src="img/vr-ar-development.webp" alt="vr-ar-development">
                     <h3>VR & AR Solutions</h3>
-                    <h3>▬</h3>
+                    <h3 class="line">▬</h3>
                     <p>We develop modern VR & AR games and applications that are compatible with all existing gadgets.
                         Experience a completely different level of entertainment!</p>
-                    <button onclick="">LEARN MORE</button>
+                    <button class="game-development-button" onclick="">LEARN MORE</button>
                 </div>
                 <div class="console-development">
                     <img src="img/console-development.webp" alt="console-development">
                     <h3>Console Game Development</h3>
-                    <h3>▬</h3>
+                    <h3 class="line">▬</h3>
                     <p>Our team of designers and developers creates games that run on PlayStation, Xbox, Stadia, and
                         Nintendo. Play our games on any device you have!</p>
-                    <button onclick="">LEARN MORE</button>
+                    <button class="game-development-button" onclick="">LEARN MORE</button>
                 </div>
             </div>
         </section>
         <section id="games">
-            <div class="top-games">
+            <div class="top">
                 <h2>Top Games</h2>
-                <h2>⋯</h2>
+                <h2 class="point">⋯</h2>
                 <p>Games you just can't stop playing whenever you are.</p>
-                <div class="monster-battle">
+            </div>
+            <div class="top-games">
+                <div id="monster-battle">
                     <img src="img/monster-battle-game.webp" alt="monster-battle-game">
                     <h3>Monster Battle</h3>
-                    <p>Fighting</p>
-                    <p>Enjoy this fighting game, choose one of the offered teams, and fight with numerous monsters on
+                    <span>Fighting</span>
+                    <p class="p">Enjoy this fighting game, choose one of the offered teams, and fight with numerous
+                        monsters on
                         the main arena of the Arkonium planet.</p>
                     <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>15$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.5</p>
+                        <div class="platform">
+                            <img src="img/platform-icon.svg" alt="platform-icon">
+                            <p>Platform: Android, iOS</p>
+                        </div>
+                        <div class="prise">
+                            <img src="img/price-icon.svg" alt="price-icon">
+                            <p>Prise: 35$</p>
+                        </div>
+                        <div class="rating">
+                            <img src="img/rating-icon.svg" alt="rating-icon">
+                            <p>Rating: 4.9</p>
+                        </div>
                     </div>
                     <div class="download">
                         <p>Download now:</p>
@@ -97,22 +99,26 @@
                         <img src="img/google-play-download.jpg" alt="google-play-download">
                     </div>
                 </div>
-                <div class="fish-world">
+                <div id="fish-world">
                     <img src="img/fiash-world-game.webp" alt="fiash-world-game">
                     <h3>Fish World</h3>
-                    <p>Puzzle</p>
-                    <p>Do you like seas and oceans? If yes, this colorful game with cute seals, turtles, fish and other
+                    <span>Puzzle</span>
+                    <p class="p">Do you like seas and oceans? If yes, this colorful game with cute seals, turtles, fish
+                        and other
                         exotic sea creatures will definitely amuse you!</p>
                     <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>15$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.8</p>
+                        <div class="platform">
+                            <img src="img/platform-icon.svg" alt="platform-icon">
+                            <p>Platform: Android, iOS</p>
+                        </div>
+                        <div class="prise">
+                            <img src="img/price-icon.svg" alt="price-icon">
+                            <p>Prise: 35$</p>
+                        </div>
+                        <div class="rating">
+                            <img src="img/rating-icon.svg" alt="rating-icon">
+                            <p>Rating: 4.9</p>
+                        </div>
                     </div>
                     <div class="download">
                         <p>Download now:</p>
@@ -120,22 +126,26 @@
                         <img src="img/google-play-download.jpg" alt="google-play-download">
                     </div>
                 </div>
-                <div class="wild-west">
+                <div id="wild-west">
                     <img src="img/wild-west-game.webp" alt="wild-west-game">
                     <h3>Wild West</h3>
-                    <p>Simulation</p>
-                    <p>Imagine that you are a resident of a small town in the Wild West. Build your home, farm, and
+                    <span>Simulation</span>
+                    <p class="p">Imagine that you are a resident of a small town in the Wild West. Build your home,
+                        farm, and
                         watch out for coyotes, bandits, and drunken cowboys!</p>
                     <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>35$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.9</p>
+                        <div class="platform">
+                            <img src="img/platform-icon.svg" alt="platform-icon">
+                            <p>Platform: Android, iOS</p>
+                        </div>
+                        <div class="prise">
+                            <img src="img/price-icon.svg" alt="price-icon">
+                            <p>Prise: 35$</p>
+                        </div>
+                        <div class="rating">
+                            <img src="img/rating-icon.svg" alt="rating-icon">
+                            <p>Rating: 4.9</p>
+                        </div>
                     </div>
                     <div class="download">
                         <p>Download now:</p>
@@ -144,203 +154,17 @@
                     </div>
                 </div>
             </div>
-            <div class="new-mobile-games">
-                <h2>New Mobile Games</h2>
-                <h2>⋯</h2>
-                <p>Looking for a new game to play? Check this out!</p>
-                <div id="feed-the-fox">
-                    <img src="img/feed-the-fox-game.webp" alt="feed-the-fox-game">
-                    <p>Feed the Fox</p>
-                    <p>Simulation</p>
-                    <p>Your pet is not a kitty or a puppy but a real wild fox. But look how cute it is! Take good care
-                        of it to keep the fox happy.</p>
-                    <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>8$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.6</p>
-                    </div>
-                    <div class="download">
-                        <p>Download now:</p>
-                        <img src="img/app-store-download.jpg" alt="app-store-download">
-                        <img src="img/google-play-download.jpg" alt="google-play-download">
-                    </div>
-                </div>
-                <div id="atlantis-ruins">
-                    <img src="img/atlantis-ruins-game.webp" alt="atlantis-ruins-game">
-                    <p>Atlantis Ruins</p>
-                    <p>Puzzle</p>
-                    <p>Countless pirate treasures are hidden in the depths of the ocean. Solve the puzzles one by one to
-                        be the first to find the treasures!</p>
-                    <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>5$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.8</p>
-                    </div>
-                    <div class="download">
-                        <p>Download now:</p>
-                        <img src="img/app-store-download.jpg" alt="app-store-download">
-                        <img src="img/google-play-download.jpg" alt="google-play-download">
-                    </div>
-                </div>
-                <div id="shamans-jungle">
-                    <img src="img/shamans-jungle-game.webp" alt="shamans-jungle-game">
-                    <p>Shamans Jungle</p>
-                    <p>Adventure</p>
-                    <p>Make your way through the jungle full of dangers! An evil shaman, wild beasts, and many
-                        discoveries await you on your way.</p>
-                    <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>5$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.5</p>
-                    </div>
-                    <div class="download">
-                        <p>Download now:</p>
-                        <img src="img/app-store-download.jpg" alt="app-store-download">
-                        <img src="img/google-play-download.jpg" alt="google-play-download">
-                    </div>
-                </div>
-                <div id="sweet-world">
-                    <img src="img/sweet-world-game.webp" alt="sweet-world-game">
-                    <p>Sweet World</p>
-                    <p>Puzzle</p>
-                    <p>It's a match3-like game in a new setting. Collect candies and cakes to make your cakery the most
-                        popular in your town.</p>
-                    <div class="description">
-                        <img src="img/platform-icon.svg" alt="platform-icon">
-                        <p>Platform:</p>
-                        <p>Android, iOS</p>
-                        <img src="img/price-icon.svg" alt="price-icon">
-                        <p>Prise:</p>
-                        <p>10$</p>
-                        <img src="img/rating-icon.svg" alt="rating-icon">
-                        <p>Rating:</p>
-                        <p>4.8</p>
-                    </div>
-                    <div class="download">
-                        <p>Download now:</p>
-                        <img src="img/app-store-download.jpg" alt="app-store-download">
-                        <img src="img/google-play-download.jpg" alt="google-play-download">
-                    </div>
-                </div>
-            </div>
-            <div class="comming-soon">
-                <img src="img/comming-soon.webp" alt="comming-soon">
-                <h2>Coming soon in 2021 -Space Adventure</h2>
-                <p>Platformer</p>
-                <p>Space Adventure will be a brand new colorful cartoonish platformer with innovative mechanics based on
-                    gravity. You play as Hoja, the fearless austronaut. Pre-order the game right now!</p>
-                <div class="description">
-                    <img src="img/platform-icon.svg" alt="platform-icon">
-                    <p>Platform:</p>
-                    <p>Android, iOS</p>
-                    <img src="img/price-icon.svg" alt="price-icon">
-                    <p>Prise:</p>
-                    <p>15$</p>
-                    <img src="img/rating-icon.svg" alt="rating-icon">
-                    <p>Rating:</p>
-                    <p>5</p>
-                </div>
-                <div class="download">
-                    <p>Download now:</p>
-                    <img src="img/app-store-download.jpg" alt="app-store-download">
-                    <img src="img/google-play-download.jpg" alt="google-play-download">
-                </div>
-            </div>
-        </section>
-        <section id="testimonials">
-            <h2>Testimonials</h2>
-            <h2>⋯</h2>
-            <p>Here are some of the reviews from our players.</p>
-            <div class="kendall-williams">
-                <img src="img/kendall-williams-photo.webp" alt="kendall-williams-photo">
-                <h3>Kendall Williams, Metacritic</h3>
-                <p>Review on</p>
-                <p>Atlantis Ruins</p>
-                <p>- 4.6</p>
-                <p>“It is definitely that kind of a game you can't stop playing! Despite its quite simple mechanics,
-                    this vibrant cartoonish game delighted both my 10-year-old daughter and me. I'm at level 150 right
-                    now and still not bored. Great job!”</p>
-                <p>December 15, 2019</p>
-                <div class="social-medias">
-                    <a href="https://www.facebook.com/"><img src="img/fb-icon.svg" alt="fb-icon"></a>
-                    <a href="https://www.instagram.com/"><img src="img/instagram-icon.svg" alt="instagram-icon"></a>
-                    <a href="https://www.youtube.com/"><img src="img/youtube-icon.svg" alt="youtube-icon"></a>
-                </div>
-            </div>
-            <div class="sam-welsh">
-                <img src="img/sam-welsh-photo.webp" alt="sam-welsh-photo">
-                <h3>Sam Welsh, Steam</h3>
-                <p>review on</p>
-                <p>Deep Down</p>
-                <p>- 4.8</p>
-                <p>“This is a great game available on multiple platforms. It has great graphics, interesting levels, and
-                    nice music. Every time I play it, I do not notice how time flies.In my opinion, this is the best
-                    praise for the game and the studio.”</p>
-                <p>May 25, 2020</p>
-                <div class="social-medias">
-                    <a href="https://www.facebook.com/"><img src="img/fb-icon.svg" alt="fb-icon"></a>
-                    <a href="https://www.instagram.com/"><img src="img/instagram-icon.svg" alt="instagram-icon"></a>
-                    <a href="https://www.youtube.com/"><img src="img/youtube-icon.svg" alt="youtube-icon"></a>
-                </div>
-            </div>
-            <div class="daniel-peterson">
-                <img src="img/daniel-peterson-photo.webp" alt="daniel-peterson-photo">
-                <p>Review on</p>
-                <p>Sandy Man</p>
-                <p>- 4.7</p>
-                <p>“It is a very interesting game that combines adventure, puzzle, and RPG. I like the extraordinary
-                    plot that is gradually developing, it is interesting to follow it. And I want to highlight the
-                    unique mechanics in this game. I think Sandy Man is the future of modern gaming on any platform!”
-                </p>
-                <p>November 13, 2020</p>
-                <div class="social-medias">
-                    <a href="https://www.facebook.com/"><img src="img/fb-icon.svg" alt="fb-icon"></a>
-                    <a href="https://www.instagram.com/"><img src="img/instagram-icon.svg" alt="instagram-icon"></a>
-                    <a href="https://www.youtube.com/"><img src="img/youtube-icon.svg" alt="youtube-icon"></a>
-                </div>
-            </div>
-
-        </section>
-        <section id="platforms">
-            <h2>Available Platforms</h2>
-            <h2>⋯</h2>
-            <p>We create our games for all existing platforms.</p>
-            <img src="img/playstation-icon.webp" alt="playstation-icon">
-            <img src="img/steam-icon.webp" alt="steam-icon">
-            <img src="img/xbox-icon.webp" alt="xbox-icon">
-            <img src="img/android-icon.webp" alt="android-icon">
-            <img src="img/apple-icon.webp" alt="apple-icon">
-            <img src="img/windows-icon.webp" alt="windows-icon">
-            <img src="img/discord-icon.webp" alt="discord-icon">
         </section>
         <div class="join-us">
             <h2>Join the Game with Fun Play!</h2>
-            <h2>⋯</h2>
+            <h2 class="points">⋯</h2>
             <p>Want to be the first to know about our releases and discounts? Subscribe to our newsletter!</p>
             <input type="email" placeholder="Email">
             <button>SUBMIT</button>
         </div>
     </main>
     <footer>
-        <div>
+        <div class="the-end">
             <img src="img/fun-play-logo.svg" alt="fun-play-logo">
             <p>We develop innovative games in different genres both under our own brand and for our clients.</p>
             <div class="social-medias-pink">
@@ -350,32 +174,30 @@
                 <a href="https://www.youtube.com/"><img src="img/youtube-icon-pink.svg" alt="youtube-icon-pink"></a>
             </div>
         </div>
-        <nav class="our-games">
-            <p>Our Games</p>
-            <a href="#feed-the-fox">Feed the Fox</a>
-            <a href="#atlantis-ruins">Atlantis Ruins</a>
-            <a href="#shamans-jungle">Shamans Jungle</a>
-            <a href="#sweet-world">Sweet World</a>
-        </nav>
-        <nav class="navigation">
-            <p>Navigation</p>
-            <a href="#about-us">▬ About Us</a>
-            <a href="#games">▬ Games</a>
-            <a href="#testimonials">▬ Testimonials</a>
-            <a href="#platforms">▬ Platforms</a>
-        </nav>
-        <nav class="contacts">
-            <p>Contacts</p>
-            <a href="">▬ Our Studio</a>
-            <a href="">▬ Merchandise</a>
-            <a href="">▬ Press Inquiries</a>
-            <a href="">▬ General Inquiries</a>
-        </nav>
-        <div>
+        <div class="navigation">
+            <nav class="our-games">
+                <p>Our Games</p>
+                <a href="#monster-battle">▬ Monster Buttle</a>
+                <a href="#fish-world">▬ Fish World</a>
+                <a href="#wild-west">▬ Wild West</a>
+            </nav>
+            <nav class="navigation-on-site">
+                <p>Navigation</p>
+                <a href="#about-us">▬ About Us</a>
+                <a href="#games">▬ Games</a>
+            </nav>
+            <nav class="contacts">
+                <p>Contacts</p>
+                <a href="">▬ Our Studio</a>
+                <a href="">▬ Merchandise</a>
+                <a href="">▬ Press Inquiries</a>
+                <a href="">▬ General Inquiries</a>
+            </nav>
+        </div>
+        <div class="created-by">
             <p>© Created by | All rights Reserved</p>
-            <div>
+            <div class="phone-email">
                 <p>Phone: <a href="">+1 (234) 567 89 00 </a></p>
-                <p>|</p>
                 <p>Email: <a href="">funplaystudio@email.com</a></p>
             </div>
         </div>
